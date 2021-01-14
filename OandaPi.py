@@ -12,8 +12,8 @@ import oandapyV20.endpoints.orders as orders
 from oandapyV20.contrib.requests import LimitOrderRequest
 import oandapyV20.endpoints.instruments as instruments
 
-access_token = 'c5aa24460adc142a87e4b1bd339376ed-47f0e6c248fec1c7cdcb8b61fd481330'
-account_id = '101-011-16913927-001'
+access_token = '---------API KEY------------------'
+account_id = '----------SECRET KEY----------------'
 client = oandapyV20.API(access_token= access_token)
 api = API(access_token = access_token)
 params = {'instruments' : 'XAU_USD'}
