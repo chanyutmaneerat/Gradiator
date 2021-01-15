@@ -159,7 +159,7 @@ def create_orders(koi):
 def ma20_signal():
   params = {
     'count': 20,
-    'granularity' : 'H4'
+    'granularity' : 'M5'
     }
   r = instruments.InstrumentsCandles(instrument = "XAU_USD",params= params)
   client.request(r)
